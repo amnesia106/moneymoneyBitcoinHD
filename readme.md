@@ -1,5 +1,7 @@
 # BitcoinHD Extension for MoneyMoney
 
+![Cat](https://github.com/amnesia106/moneymoneyBitcoinHD/blob/master/balancebhd.png)
+
 Fetches balances from bitcoinhd explorer
 Prices in EUR from coinmarketcap.com
 
