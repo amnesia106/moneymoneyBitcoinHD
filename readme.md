@@ -16,6 +16,6 @@ Once downloaded, move `bitcoinHD.lua` to your MoneyMoney Extensions folder.
 
 Add a new account select BitcoinHD and provide your BitcoinHD addresses as username (comma seperated)
 
-#### Special
+## Special
 
 Based on curbshifters burstcoin moneymoney extension - thanks
