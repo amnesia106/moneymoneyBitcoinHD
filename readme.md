@@ -6,7 +6,7 @@ Fetches balances from bitcoinhd explorer
 Prices in EUR from coinmarketcap.com
 
 Requirements:
-* MoneyMoney v2.3.5
+* MoneyMoney v2.3.14
 
 ## Extension Setup
 
