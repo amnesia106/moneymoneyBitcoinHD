@@ -65,7 +65,7 @@ function RefreshAccount (account, since)
       currency = nil,
       market = "cryptocompare",
       quantity = BitcoinHDQuantity,
-      price = prices["price_eur"],
+      price = prices,
     }
   end
 
@@ -79,7 +79,7 @@ function requestBitcoinHDPrice()
   response = connection:request("GET", cryptocompareRequestUrl(), {})
   json = JSON(response)
 
-  return json:dictionary()[1]
+  return json:dictionary()['EUR']
 end
 
 
@@ -90,8 +90,10 @@ function requestBitcoinHDQuantityForbitcoinhdAddress(bitcoinhdAddress)
    return BHD
   end
 
+
+
 function cryptocompareRequestUrl()
-  return "https://api.coinmarketcap.com/v1/ticker/bitcoinhd/?convert=EUR"
+  return "https://min-api.cryptocompare.com/data/price?fsym=BHD&tsyms=EUR"
 end
 
 function BitcoinHDRequestUrl(bitcoinhdAddress)
