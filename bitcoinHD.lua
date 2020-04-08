@@ -99,7 +99,3 @@ end
 function BitcoinHDRequestUrl(bitcoinhdAddress)
   return "http://www.btchd.org/explorer/api/v2/blockchain/address/" .. bitcoinhdAddress
 end
-
--- SIGNATURE:
-
--- SIGNATURE: MC0CFQCPJcHe8zepDM2yQjsTIATwBY5DdQIUCEdZogJdSUSllbkkpyCHmD6hi5A=
